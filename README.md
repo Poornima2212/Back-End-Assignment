@@ -1,5 +1,7 @@
 # CRD-operations-of-a-file-based-key-value-data-store
-This is a file which can be exposed as a library that supports the basic CRD(create, read, write) operations. Data store is meant to local storage for one single process on single laptop
+This is a file which can be exposed as a library that supports the basic CRD(create, read, delete) operations. Data store is meant to local storage for one single process on single laptop.. The data store must be exposed as a library to clients that can instantiate a class and work
+with the data store.
+
 
 The data store will support the following functional requirements.
 1. It can be initialized using an optional file path. If one is not provided, it will reliably
@@ -29,5 +31,5 @@ deriving maximum performance with respect to response times for accessing the da
 store.
 
 
-Go through the accessing.py file and examples.pdf file that are attached here with in order to understand clearly how 
+Go through the accessing.py file and freshworks_crd.pdf file that are attached here with in order to understand clearly how 
 the code works and how to perform operations in this. 
